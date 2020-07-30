@@ -6,7 +6,7 @@ from email.mime.image import MIMEImage
 from email.mime.multipart import MIMEMultipart
 from io import BytesIO
 
-data = read_csv("final.csv").values.tolist()
+data = read_csv("test.csv").values.tolist()
 template = Image.open("template.png")
 font = ImageFont.truetype("SFPro.ttf",30)
 eventfont = ImageFont.truetype("SFPro.ttf",24)
